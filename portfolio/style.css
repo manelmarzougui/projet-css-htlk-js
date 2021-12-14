@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.contact {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffdee9;
+  background-image: linear-gradient(
+    0deg,
+    #ffdee9 0%,
+    #b5fffc 70%,
+    #ffffff 100%
+  );
+}
+
+.contact img {
+  width: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.contact-st {
+  width: 50%;
+  padding: 30px;
+
+  background-color: rgb(194, 125, 159);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 13px -1px 31px -6px rgba(184, 92, 92, 0.73);
+}
+
+.contact-st h1 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: beige;
+}
